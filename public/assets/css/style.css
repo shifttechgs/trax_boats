@@ -4,7 +4,7 @@
     01 - Inner Page
 		01 - About Us
 		02 - Service Detail
-        03 - Portfolio Single 
+        03 - Portfolio Single
         04 - Blog Detail
              Sidebar Right
              Blog Classic
@@ -12,7 +12,7 @@
         05 - Team Single
         06 - Contact Us
         07 - Comment Form
-    
+
 ******************************/
 
 /*----------------------------------------*/
@@ -22,7 +22,7 @@
 	overflow: hidden;
 	position: relative;
 }
-	
+
 /** Homepage 01 **/
 .about-us-sec-one{
 	padding: 40px 40px 40px 40px;
@@ -40,7 +40,7 @@
 	0% {
 		opacity: 0;
 	}
-	
+
 	100% {
 		opacity: 1;
 	}
@@ -154,7 +154,7 @@
     transform: translateX(-50%) translateY(-50%);
 }
 .who-we-are-one-bg{
-	background-image: url(../images/homepage-1/bg/bg-img-01.webp);
+	background-image: url(../images/banner-slider-img/worksshop.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@
     padding: 16px 55px;
 }
 /** Homepage 02 **/
-.service-two-swiper-arrow .swiper-button-next, 
+.service-two-swiper-arrow .swiper-button-next,
 .service-two-swiper-arrow .swiper-button-prev{
 	border-left: none !important;
 	color: var(--pbmit-blackish-color);
@@ -227,7 +227,7 @@
 .service-two-swiper-arrow:after{
 	color: rgba(var(--pbmit-blackish-color-rgb),.5);
 }
-.service-two-swiper-arrow .swiper-button-next:hover, 
+.service-two-swiper-arrow .swiper-button-next:hover,
 .service-two-swiper-arrow .swiper-button-prev:hover{
 	color: var(--pbmit-global-color);
 }
@@ -282,7 +282,7 @@
 	border-radius: 30px;
 	margin-left: 20px;
 }
-.testimonial-two-box .swiper-button-next, 
+.testimonial-two-box .swiper-button-next,
 .testimonial-two-box .swiper-button-prev{
 	position: absolute;
 	top: inherit;
@@ -305,7 +305,7 @@
 	position: relative;
 	padding: 130px 0px 100px 60px;
 	border-radius: 30px;
-	background-image: url(../images/homepage-2/bg/action-bg.webp);
+	background-image: url(../images/banner-slider-img/boat-painting.jpg);
 }
 .appointment-two-bg .ihbox-style-area {
     position: absolute;
@@ -320,7 +320,7 @@
     background-position: top left;
     background-repeat: no-repeat;
 }
-/** Homepage 03 **/ 
+/** Homepage 03 **/
 .contact-three-bg{
 	background-image: url(../images/homepage-3/bg/contact-form-bg-01.webp);
     background-position: center center;
@@ -408,7 +408,7 @@
 	max-width: 100%;
 }
 /*------------------- ---------------------*/
-/*01 - Inner Page 
+/*01 - Inner Page
 /*----------------------------------------*/
 /** 01 - About Us **/
 .our-history-bg{
@@ -463,7 +463,7 @@
 }
 .pbmit-element-timeline-style-1 .pbmit-timeline-wrapper:not(.pbmit-slide-even) .pbmit-feature-image{
 	transition: all 0.4s, opacity 0.4s 0.9s, transform 0.4s 0.9s;
-} 
+}
 .pbmit-element-timeline-style-1 .pbmit-feature-image img{
 	border-radius: 30px;
 	margin-bottom: 20px;
@@ -834,7 +834,7 @@
 /** 04 - Blog Detail**/
 
 /** Sidebar Right **/
-.sidebar .widget{ 
+.sidebar .widget{
     padding: 30px;
     margin-bottom: 45px;
     border: 1px solid rgba(var(--pbmit-blackish-color-rgb), 0.15);
@@ -847,7 +847,7 @@
 .sidebar .widget.widget-search{
 	background-color: var(--pbmit-blackish-color);
 }
-.sidebar .widget .widget-title{ 
+.sidebar .widget .widget-title{
 	display: block;
 	padding-left: 22px;
 	margin-bottom: 20px;
@@ -859,7 +859,7 @@
     padding-bottom: 0;
 	text-transform: capitalize;
 	color: var(--pbmit-blackish-color);
-} 
+}
 .sidebar .widget.widget-search .widget-title{
 	color: var(--pbmit-white-color);
 }
@@ -1270,7 +1270,7 @@ aside.widget.widget-tag-cloud a:hover,
 	margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(3, 27, 78, 0.1);
-} 
+}
 .pbmit-firstletter::first-letter{
 	padding: 0;
 	font-size: 30px;

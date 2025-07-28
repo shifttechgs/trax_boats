@@ -109,7 +109,7 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/homepage-1/service/service-img-01.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/boat-painting.jpg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
@@ -146,7 +146,7 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/homepage-1/service/service-img-02.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/boat_trailler.jpg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
@@ -183,7 +183,7 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/homepage-1/service/service-img-03.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/fabrication.webp" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
@@ -220,7 +220,7 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/homepage-1/service/service-img-04.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/trucks_to_rv.webp" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
@@ -257,7 +257,7 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/homepage-1/service/service-img-05.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/bespoke.jpeg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
@@ -525,7 +525,7 @@
                     </div>
                     <div class="col-md-12 col-xl-4">
                         <div class="why-choose-one-about-img">
-                            <img src="assets/images/homepage-1/about-img-01.webp" class="img-fluid" alt="">
+                            <img src="assets/images/banner-slider-img/fix_boat.jpeg" class="img-fluid" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-xl-4">
@@ -608,104 +608,61 @@
         </section>
         <!-- Why Choose end -->
 
-        <!-- Who We Are Start -->
-        <section class="section-lg who-we-are-one-bg">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-md-7"></div>
-                    <div class="col-md-12 col-xl-7">
-                        <div class="pbmit-bg-color-blackish content-wrapper">
-                            <div class="pbmit-heading-subheading animation-style2">
-                                <h4 class="pbmit-subtitle" style="color: white">Who we are</h4>
-                                <h2 class="pbmit-title">The Story Behind Our Boat & Trailer Workshop</h2>
-                                <div class="pbmit-heading-desc">
-                                    We specialize in restoring, rebuilding, and transforming boats, trailers, and utility vehicles. Our workshop was built on a passion for quality craftsmanship and a commitment to helping adventurers, haulers, and explorers get back on the road or water with confidence.
-                                </div>
+        <!-- Appointment Start -->
+        <section>
+            <div class="container px-xl-3 px-0">
+                <div class="appointment-two-bg">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-8">
+                            <div class="pbmit-heading-subheading white-text mb-3 animation-style4">
+                                <h4 class="pbmit-subtitle"> Limited Period Offer </h4>
+                                <h2 class="pbmit-title">Schedule a Complimentary Boat & Trailer Assessment Now!</h2>
                             </div>
-                            <div class="list-group-area">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <ul class="list-group list-group-borderless">
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text">Boat Repairs, Re-design & Rebuilding</span>
-                                            </li>
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text"> Boat & Personal Trailer Repairs</span>
-                                            </li>
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text">Bespoke Trailer Fabrication</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <ul class="list-group list-group-borderless pt-md-0 pt-3">
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text">Truck to RV Conversions</span>
-                                            </li>
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text">Tyre & Wheel Upgrades</span>
-                                            </li>
-                                            <li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-															<path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
-														</svg>
-													</span>
-                                                <span class="pbmit-icon-list-text">High-Quality Trailer Components</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-
-                                </div>
-                                <br>
-                                <div>
-                                <a class="pbmit-btn" href="about-us.html">
-								<span class="pbmit-button-content-wrapper">
-									<span class="pbmit-button-icon">
-										<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-											<title>black-arrow</title>
-											<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-										</svg>
+                            <a class="pbmit-btn pbmit-btn-hover-white" href="contact-us.html">
+									<span class="pbmit-button-content-wrapper">
+										<span class="pbmit-button-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+												<title>black-arrow</title>
+												<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+												<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+												<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+											</svg>
+										</span>
+										<span class="pbmit-button-text">Book Assessment</span>
 									</span>
-									<span class="pbmit-button-text">Get a Free Quote</span>
-								</span>
-                                </a>
-                           </div>
+                            </a>
+                        </div>
+                        <div class="col-md-12 col-xl-4">
+                            <div class="ihbox-style-area e-transform">
+                                <div class="pbmit-ihbox-style-7">
+                                    <div class="pbmit-ihbox-box">
+                                        <div class="pbmit-icon-wrapper">
+                                            <div class="pbmit-ihbox-icon">
+                                                <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                                    <i class="pbmit-karsfix-icon pbmit-karsfix-icon-telephone"></i>
+                                                </div>
+                                            </div>
+                                            <h2 class="pbmit-element-title">
+                                                <a href="tel:+263 772 254 344">
+                                                    <span class="pbmit-button-text">+263772254344</span>
+                                                    <span class="pbmit-button-icon-wrapper">
+															<span class="pbmit-button-icon">
+																<i class="pbmit-base-icon-black-arrow-1"></i>
+															</span>
+														</span>
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="pbmit-content-wrap"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Who We Are End -->
+        <!-- Appointment End -->
 
 
         <!-- Page Content -->
@@ -908,7 +865,7 @@
 											<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
 										</svg>
 									</span>
-									<span class="pbmit-button-text">Get a Free Quote</span>
+									<span class="pbmit-button-text">Explore Projects</span>
 								</span>
                     </a>
                 </div>

@@ -52,7 +52,7 @@
 {{--                                                </ul>--}}
                                             </li>
                                             <li class="dropdown">
-                                                <a href="#">Projects</a>
+                                                <a href="{{ route('projects.index') }}">Projects</a>
 {{--                                                <ul>--}}
 {{--                                                    <li class="dropdown">--}}
 {{--                                                        <a href="#">Masonry View</a>--}}
@@ -135,7 +135,7 @@
                 <div class="swiper-slide">
                     <div class="pbmit-bg-overlay"></div>
                     <div class="pbmit-slider-item">
-                        <div class="pbmit-slider-bg" style="background-image: url('{{ asset('assets/images/banner-slider-img/slide-a-01.webp') }}');"></div>
+                        <div class="pbmit-slider-bg" style="background-image: url('{{ asset('assets/images/banner-slider-img/boat_fix.jpg') }}');"></div>
 
                         <div class="container">
                             <div class="row">

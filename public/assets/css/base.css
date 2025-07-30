@@ -445,12 +445,12 @@ INDEX:
 /* 04 - Helper Class
 /*----------------------------------------*/
 .section-lg{
-	padding-top: 100px;
+	padding-top: 0px;
 	padding-bottom: 100px;
 }
 .section-xl{
 	padding-top: 100px;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
 }
 .section-lgt{
 	padding-top: 100px;
@@ -496,7 +496,7 @@ ul.pbmit-contact-info{
  .site-header .site-branding img {
      max-width: 100%;
      height: auto;
-     max-height: 50px;
+     max-height: 250px;
 	 display: inline-block;
      -webkit-transition: all 300ms ease;
      transition: all 300ms ease;

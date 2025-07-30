@@ -529,7 +529,7 @@ blockquote,
 	color: var(--pbmit-blackish-color);
 }
 .pbmit-ihbox-style-5 .pbmit-element-title {
-	margin-bottom: 50px;
+	margin-bottom: 122px;
 }
 .pbmit-ihbox-style-5 .pbmit-contents-wrap {
 	display: flex;
@@ -2298,7 +2298,7 @@ body:not(.home) .header-style-1 .site-header-menu:not(.sticky-header) .pbmit-mai
 	overflow: hidden;
 }
 .site-footer .pbmit-footer-big-area .pbmit-footer-logo img{
-    max-height: 80px;
+    max-height: 270px;
 }
 .site-footer .pbmit-footer-newsletter {
     display: flex;

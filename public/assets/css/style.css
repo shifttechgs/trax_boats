@@ -46,7 +46,7 @@
 	}
 }
 .about-us-one-left{
-	background-image: url(../images/homepage-1/bg/info-bg-01.webp);
+	background-image: url(../images/homepage-1/bg/first_cta.svg);
     background-position: center center;
     background-size: cover;
 	padding: 40px 40px 0px 40px;
@@ -61,9 +61,10 @@
 }
 .about-us-one-rightbox{
 	position: relative;
-	background-image: url(../images/homepage-1/bg/info-bg-02.webp);
-    background-position: bottom center;
-    background-repeat: no-repeat;
+	background-image: url(../images/homepage-1/bg/first_cta2.svg);
+    background-position: center center;
+    background-size: cover;
+
 	background-color: var(--pbmit-white-color);
 	padding: 40px 0px 0px 40px;
 	margin-left: 20px;
@@ -194,7 +195,7 @@
 	padding: 100px 40px 90px 40px;
 	margin: 0px 40px 0px 40px;
 	border-radius: 30px;
-	background-image: url(../images/homepage-1/bg/contact-form-bg.webp);
+	background-image: url(../images/homepage-1/bg/contact.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,9 +304,9 @@
 }
 .appointment-two-bg{
 	position: relative;
-	padding: 130px 0px 100px 60px;
+	padding: 130px 0px 100px 130px;
 	border-radius: 30px;
-	background-image: url(../images/banner-slider-img/boat-painting.jpg);
+	background-image: url(../images/banner-slider-img/cta4.svg);
 }
 .appointment-two-bg .ihbox-style-area {
     position: absolute;

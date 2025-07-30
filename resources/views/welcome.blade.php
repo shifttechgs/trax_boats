@@ -11,7 +11,7 @@
 
 
         <!-- About Us Start -->
-        <section class="about-us-sec-one fadeIn animated animated-slow pbmit-bg-color-light">
+        <section class="about-us-sec-one fadeIn animated animated-slow pbmit-bg-color-">
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-md-12 col-xl-5 about-us-one-col-1">
@@ -19,18 +19,18 @@
                             <div class="pbmit-ihbox-style-5">
                                 <div class="pbmit-ihbox-wrap">
                                     <div class="pbmit-icon-wrap">
-                                        <h4 class="pbmit-element-subtitle">
+                                        <h4 class="pbmit-element-subtitle" style="color: white">
                                             Free Services
                                         </h4>
                                     </div>
                                     <div class="pbmit-contents-wrap">
                                         <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">Free Evaluation Of Your <br>
+                                            <h2 class="pbmit-element-title" style="color: white">Free Evaluation Of Your <br>
                                                 Boat and Trailers.
                                             </h2>
                                         </div>
                                         <div class="pbmit-ihbox-btn">
-                                            <a href="#">
+                                            <a href="{{ route('contact.index') }}">
                                                 <span class="pbmit-button-text">Read More</span>
                                                 <span class="pbmit-button-icon-wrapper">
 														<span class="pbmit-button-icon">
@@ -61,10 +61,10 @@
                     <div class="col-md-12 col-xl-5 about-us-one-col-3">
                         <div class="about-us-one-rightbox">
                             <div class="pbmit-bg-overlay"></div>
-                            <h2 class="pbmit-heading">Easy Booking & Fast <br> Communication</h2>
+                            <h2 class="pbmit-heading" style="color: white">Easy Booking & Fast <br> Communication</h2>
                             <div class="pbmit-button">
                                 <div class="pbmit-btn-wrap">
-                                    <a class="pbmit-btn" href="contact-us.html">
+                                    <a class="pbmit-btn" href="{{ route('contact.index') }}">
 											<span class="pbmit-button-content-wrapper">
 												<span class="pbmit-button-icon">
 													<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
@@ -93,7 +93,7 @@
                     <div class="col-md-6">
                         <div class="pbmit-heading-subheading animation-style2">
                             <h4 class="pbmit-subtitle">Our Services</h4>
-                            <h2 class="pbmit-title">We offer a <span class="pbmit-global-color">wide range</span> <br> of Boats & Trailers.</h2>
+                            <h2 class="pbmit-title">We offer a <span class="pbmit-global-color">wide range</span> <br> of Boats & Trailers services.</h2>
                         </div>
                     </div>
                     <div class="col-md-6 text-end">
@@ -109,17 +109,17 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/boat-painting.jpg" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/boat_repair.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="service-details.html" title="Maintenance">
+                                            <a class="pbmit-service-btn" href="" title="Maintenance">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-angle-right"></i>
 													</span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="service-details.html"></a>
+                                        <a class="pbmit-link" href=""></a>
                                     </div>
                                     <div class="pbmit-content-box">
                                         <div class="pbminfotech-box-number">01</div>
@@ -127,14 +127,12 @@
                                             <a href="services.html" rel="tag">Accessories</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-details.html">Boat Repairs & Rebuilds</a>
+                                            <a href="">Boat Repairs & Rebuilds</a>
                                         </h3>
                                         <div class="pbmit-service-description">
                                             <p>From minor fixes to complete overhauls, we restore boats to peak performance and condition.</p>
                                         </div>
-                                        <div class="pbmit-service-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-repair"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -146,17 +144,17 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/boat_trailler.jpg" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/trailer.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="service-details.html" title="Wheels Alignment">
+                                            <a class="pbmit-service-btn" href="" title="Wheels Alignment">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-angle-right"></i>
 													</span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="service-details.html"></a>
+                                        <a class="pbmit-link" href=""></a>
                                     </div>
                                     <div class="pbmit-content-box">
                                         <div class="pbminfotech-box-number">02</div>
@@ -164,14 +162,12 @@
                                             <a href="services.html" rel="tag">Maintenance</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-details.html">Trailer Repairs (Boat & Personal)</a>
+                                            <a href="">Trailer Repairs (Boat & Personal)</a>
                                         </h3>
                                         <div class="pbmit-service-description">
-                                            <p>We repair and rebuild trailers for safety, strength, and smooth towing—built for the long haul.</p>
+                                            <p>We repair and rebuild trailers for safety, strength, and smooth towing, built for the long haul.</p>
                                         </div>
-                                        <div class="pbmit-service-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-tyre"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -183,17 +179,17 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/fabrication.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/fabrication.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="service-details.html" title="Engine Service">
+                                            <a class="pbmit-service-btn" href="" title="Trax Boats Service">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-angle-right"></i>
 													</span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="service-details.html"></a>
+                                        <a class="pbmit-link" href=""></a>
                                     </div>
                                     <div class="pbmit-content-box">
                                         <div class="pbminfotech-box-number">03</div>
@@ -201,14 +197,12 @@
                                             <a href="services.html" rel="tag">Repair</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-details.html">Custom Trailer Fabrication</a>
+                                            <a href="">Custom Trailer Fabrication</a>
                                         </h3>
                                         <div class="pbmit-service-description">
                                             <p>Tailor-made trailers, designed and fabricated to meet your specific load and usage needs.</p>
                                         </div>
-                                        <div class="pbmit-service-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-engine"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -220,17 +214,17 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/trucks_to_rv.webp" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/conversions.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="service-details.html" title="Interior Cleaning">
+                                            <a class="pbmit-service-btn" href="" title="Interior Cleaning">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-angle-right"></i>
 													</span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="service-details.html"></a>
+                                        <a class="pbmit-link" href=""></a>
                                     </div>
                                     <div class="pbmit-content-box">
                                         <div class="pbminfotech-box-number">04</div>
@@ -238,14 +232,12 @@
                                             <a href="services.html" rel="tag">Filters</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-details.html">Truck to RV Conversions</a>
+                                            <a href="">Truck to RV Conversions</a>
                                         </h3>
                                         <div class="pbmit-service-description">
                                             <p>Transform your truck into a fully functional, road-ready RV with comfort and precision.</p>
                                         </div>
-                                        <div class="pbmit-service-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-steering-wheel"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -257,17 +249,17 @@
                                     <div class="pbmit-service-image-wrapper">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/bespoke.jpeg" class="img-fluid" alt="">
+                                                <img src="assets/images/banner-slider-img/bespoke.svg" class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="service-details.html" title="Break Service">
+                                            <a class="pbmit-service-btn" href="" title="Break Service">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-angle-right"></i>
 													</span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="service-details.html"></a>
+                                        <a class="pbmit-link" href=""></a>
                                     </div>
                                     <div class="pbmit-content-box">
                                         <div class="pbminfotech-box-number">05</div>
@@ -275,166 +267,17 @@
                                             <a href="services.html" rel="tag">Repair</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-details.html">Bespoke trailer & fabrication</a>
+                                            <a href="">Bespoke trailer & fabrication</a>
                                         </h3>
                                         <div class="pbmit-service-description">
                                             <p>Unique trailer builds and custom fabrication solutions, crafted to your exact specifications.</p>
                                         </div>
-                                        <div class="pbmit-service-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-brakes"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                         </article>
-{{--                        <!-- Slide6 -->--}}
-{{--                        <article class="pbmit-service-style-1 swiper-slide">--}}
-{{--                            <div class="pbminfotech-post-item">--}}
-{{--                                <div class="pbmit-box-content-wrap">--}}
-{{--                                    <div class="pbmit-service-image-wrapper">--}}
-{{--                                        <div class="pbmit-featured-img-wrapper">--}}
-{{--                                            <div class="pbmit-featured-wrapper">--}}
-{{--                                                <img src="assets/images/homepage-1/service/service-img-06.webp" class="img-fluid" alt="">--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-btn-wrapper">--}}
-{{--                                            <a class="pbmit-service-btn" href="service-details.html" title="Electrical Repairs">--}}
-{{--													<span class="pbmit-button-icon">--}}
-{{--														<i class="pbmit-base-icon-angle-right"></i>--}}
-{{--													</span>--}}
-{{--                                            </a>--}}
-{{--                                        </div>--}}
-{{--                                        <a class="pbmit-link" href="service-details.html"></a>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="pbmit-content-box">--}}
-{{--                                        <div class="pbminfotech-box-number">06</div>--}}
-{{--                                        <div class="pbmit-serv-cat">--}}
-{{--                                            <a href="services.html" rel="tag">Diagnostics</a>--}}
-{{--                                        </div>--}}
-{{--                                        <h3 class="pbmit-service-title">--}}
-{{--                                            <a href="service-details.html">Electrical Repairs</a>--}}
-{{--                                        </h3>--}}
-{{--                                        <div class="pbmit-service-description">--}}
-{{--                                            <p>Auto electricians specialize in a car’s work on repairing, installing, inspecting, and maintaining all the electrical parts contained in a vehicle.</p>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-icon">--}}
-{{--                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-monitor"></i>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </article>--}}
-{{--                        <!-- Slide7 -->--}}
-{{--                        <article class="pbmit-service-style-1 swiper-slide">--}}
-{{--                            <div class="pbminfotech-post-item">--}}
-{{--                                <div class="pbmit-box-content-wrap">--}}
-{{--                                    <div class="pbmit-service-image-wrapper">--}}
-{{--                                        <div class="pbmit-featured-img-wrapper">--}}
-{{--                                            <div class="pbmit-featured-wrapper">--}}
-{{--                                                <img src="assets/images/homepage-1/service/service-img-07.webp" class="img-fluid" alt="">--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-btn-wrapper">--}}
-{{--                                            <a class="pbmit-service-btn" href="service-details.html" title="Car Polishing">--}}
-{{--													<span class="pbmit-button-icon">--}}
-{{--														<i class="pbmit-base-icon-angle-right"></i>--}}
-{{--													</span>--}}
-{{--                                            </a>--}}
-{{--                                        </div>--}}
-{{--                                        <a class="pbmit-link" href="service-details.html"></a>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="pbmit-content-box">--}}
-{{--                                        <div class="pbminfotech-box-number">07</div>--}}
-{{--                                        <div class="pbmit-serv-cat">--}}
-{{--                                            <a href="services.html" rel="tag">Washing</a>--}}
-{{--                                        </div>--}}
-{{--                                        <h3 class="pbmit-service-title">--}}
-{{--                                            <a href="service-details.html">Car Polishing</a>--}}
-{{--                                        </h3>--}}
-{{--                                        <div class="pbmit-service-description">--}}
-{{--                                            <p>Polishing your car regularly will help to protect it from the elements and keep it looking new for longer & deep shine and slick feel </p>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-icon">--}}
-{{--                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-door"></i>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </article>--}}
-{{--                        <!-- Slide8 -->--}}
-{{--                        <article class="pbmit-service-style-1 swiper-slide">--}}
-{{--                            <div class="pbminfotech-post-item">--}}
-{{--                                <div class="pbmit-box-content-wrap">--}}
-{{--                                    <div class="pbmit-service-image-wrapper">--}}
-{{--                                        <div class="pbmit-featured-img-wrapper">--}}
-{{--                                            <div class="pbmit-featured-wrapper">--}}
-{{--                                                <img src="assets/images/homepage-1/service/service-img-08.webp" class="img-fluid" alt="">--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-btn-wrapper">--}}
-{{--                                            <a class="pbmit-service-btn" href="service-details.html" title="Battery Replacement">--}}
-{{--													<span class="pbmit-button-icon">--}}
-{{--														<i class="pbmit-base-icon-angle-right"></i>--}}
-{{--													</span>--}}
-{{--                                            </a>--}}
-{{--                                        </div>--}}
-{{--                                        <a class="pbmit-link" href="service-details.html"></a>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="pbmit-content-box">--}}
-{{--                                        <div class="pbminfotech-box-number">08</div>--}}
-{{--                                        <div class="pbmit-serv-cat">--}}
-{{--                                            <a href="services.html" rel="tag">Maintenance</a>--}}
-{{--                                        </div>--}}
-{{--                                        <h3 class="pbmit-service-title">--}}
-{{--                                            <a href="service-details.html">Battery Replacement</a>--}}
-{{--                                        </h3>--}}
-{{--                                        <div class="pbmit-service-description">--}}
-{{--                                            <p>Battery is a major inconvenience electrical energy to dissipate and reduces the risk of shock or injury during the battery replacement</p>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-icon">--}}
-{{--                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-automobile"></i>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </article>--}}
-{{--                        <!-- Slide9 -->--}}
-{{--                        <article class="pbmit-service-style-1 swiper-slide">--}}
-{{--                            <div class="pbminfotech-post-item">--}}
-{{--                                <div class="pbmit-box-content-wrap">--}}
-{{--                                    <div class="pbmit-service-image-wrapper">--}}
-{{--                                        <div class="pbmit-featured-img-wrapper">--}}
-{{--                                            <div class="pbmit-featured-wrapper">--}}
-{{--                                                <img src="assets/images/homepage-1/service/service-img-09.webp" class="img-fluid" alt="">--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-btn-wrapper">--}}
-{{--                                            <a class="pbmit-service-btn" href="service-details.html" title="Air Conditioner">--}}
-{{--													<span class="pbmit-button-icon">--}}
-{{--														<i class="pbmit-base-icon-angle-right"></i>--}}
-{{--													</span>--}}
-{{--                                            </a>--}}
-{{--                                        </div>--}}
-{{--                                        <a class="pbmit-link" href="service-details.html"></a>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="pbmit-content-box">--}}
-{{--                                        <div class="pbminfotech-box-number">09</div>--}}
-{{--                                        <div class="pbmit-serv-cat">--}}
-{{--                                            <a href="services.html" rel="tag">Accessories</a>--}}
-{{--                                        </div>--}}
-{{--                                        <h3 class="pbmit-service-title">--}}
-{{--                                            <a href="service-details.html">Air Conditioner</a>--}}
-{{--                                        </h3>--}}
-{{--                                        <div class="pbmit-service-description">--}}
-{{--                                            <p>Before installing the new air filter, you need to lubricate it with the help of mechanic</p>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="pbmit-service-icon">--}}
-{{--                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-turbo"></i>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </article>--}}
+
                     </div>
                 </div>
             </div>
@@ -525,7 +368,7 @@
                     </div>
                     <div class="col-md-12 col-xl-4">
                         <div class="why-choose-one-about-img">
-                            <img src="assets/images/banner-slider-img/fix_boat.jpeg" class="img-fluid" alt="">
+                            <img src="assets/images/banner-slider-img/boat.svg" style=" border-radius: 8px;" class="img-fluid" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-xl-4">
@@ -533,7 +376,7 @@
                             <div class="pbmit-ihbox-headingicon">
                                 <div class="pbmit-ihbox-icon">
                                     <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                        <i class="pbmit-karsfix-icon pbmit-karsfix-icon-automobile"></i>
+                                        <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-lifter"></i>
                                     </div>
                                 </div>
                                 <div class="pbmit-ihbox-contents">
@@ -547,7 +390,7 @@
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-meter"></i>
+                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-lifter"></i>
                                         </div>
                                     </div>
                                     <div class="pbmit-ihbox-contents">
@@ -562,7 +405,7 @@
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-adjustable-wrench"></i>
+                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-lifter"></i>
                                         </div>
                                     </div>
                                     <div class="pbmit-ihbox-contents">
@@ -587,21 +430,21 @@
                                 </div>
                             </div>
                         </div>
-{{--                        <div class="pt-5 mt-md-2">--}}
-{{--                            <div class="pbmit-ihbox-style-2">--}}
-{{--                                <div class="pbmit-ihbox-headingicon">--}}
-{{--                                    <div class="pbmit-ihbox-icon">--}}
-{{--                                        <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">--}}
-{{--                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-lifter"></i>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="pbmit-ihbox-contents">--}}
-{{--                                        <h2 class="pbmit-element-title">Proven Client Satisfaction</h2>--}}
-{{--                                        <div class="pbmit-heading-desc">A track record of successful projects and happy customers.</div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        <div class="pt-5 mt-md-2">
+                            <div class="pbmit-ihbox-style-2">
+                                <div class="pbmit-ihbox-headingicon">
+                                    <div class="pbmit-ihbox-icon">
+                                        <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                            <i class="pbmit-karsfix-icon pbmit-karsfix-icon-car-lifter"></i>
+                                        </div>
+                                    </div>
+                                    <div class="pbmit-ihbox-contents">
+                                        <h2 class="pbmit-element-title">Proven Client Satisfaction</h2>
+                                        <div class="pbmit-heading-desc">A track record of successful projects and happy customers.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -616,7 +459,7 @@
                         <div class="col-md-12 col-xl-8">
                             <div class="pbmit-heading-subheading white-text mb-3 animation-style4">
                                 <h4 class="pbmit-subtitle"> Limited Period Offer </h4>
-                                <h2 class="pbmit-title">Schedule a Complimentary Boat & Trailer Assessment Now!</h2>
+                                <h2 class="pbmit-title">Schedule a Complimentary <br>Boat & Trailer Assessment Now!</h2>
                             </div>
                             <a class="pbmit-btn pbmit-btn-hover-white" href="contact-us.html">
 									<span class="pbmit-button-content-wrapper">
@@ -672,7 +515,7 @@
             <section class="section-xl pbmit-element-viewtype-masonry">
                 <div class="pbmit-heading-subheading text-center animation-style2">
                                         <h4 class="pbmit-subtitle"> Latest Works </h4>
-                                        <h2 class="pbmit-title">Our most recent <span class="pbmit-global-color">portfolio</span></h2>
+                                        <h2 class="pbmit-title">Our most recent <span class="pbmit-global-color">projects</span></h2>
                                     </div>
                 <div class="container-fluid px-4">
                     <div class="row pbmit-element-posts-wrapper">
@@ -681,7 +524,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-01.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/1.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -689,10 +532,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Engine</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Engine Repairing</a>
+                                            <a href="portfolio-single-style-01.html">Boat Rebuild</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -703,7 +546,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-01.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/2.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -711,10 +554,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Engine</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Engine Repairing</a>
+                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -725,7 +568,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-01.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/3.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -733,10 +576,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Engine</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Engine Repairing</a>
+                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -747,7 +590,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-01.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/4.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -755,10 +598,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Engine</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Engine Repairing</a>
+                                            <a href="portfolio-single-style-01.html">Boat Respraying</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -769,7 +612,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-03.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/5.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -777,10 +620,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Equipment</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Car Diagnostic</a>
+                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -791,7 +634,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-03.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/10.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -799,10 +642,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Equipment</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Car Diagnostic</a>
+                                            <a href="portfolio-single-style-01.html">Custom Trailer </a>
                                         </h3>
                                     </div>
                                 </div>
@@ -813,7 +656,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-03.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/9.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -821,10 +664,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Equipment</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Car Diagnostic</a>
+                                            <a href="portfolio-single-style-01.html">Custom Trailer</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -835,7 +678,7 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/project-img-03.webp" class="img-fluid" alt="">
+                                            <img src="assets/images/portfolio/8.svg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
@@ -843,10 +686,10 @@
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Equipment</a>
+                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Car Diagnostic</a>
+                                            <a href="portfolio-single-style-01.html">Custom Trailer</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -896,7 +739,8 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Absolutely top-notch service. My boat trailer was custom-fitted and ready in no time.
+                                            Highly recommend Trax for quality.”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
@@ -905,7 +749,7 @@
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-01.webp" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -915,16 +759,18 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Professional and reliable team.
+                                            They helped me upgrade my trailer with zero hassle.
+                                            I wouldn’t go anywhere else!”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
                                     <h3 class="pbminfotech-box-title">Adeline wood</h3>
-                                    <div class="pbminfotech-testimonial-detail">Customer</div>
+                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-02.webp" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -934,16 +780,17 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Best experience ever, from consultation to delivery, everything was seamless.
+                                            Trax truly knows their stuff.”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
                                     <h3 class="pbminfotech-box-title">Naomi Violet</h3>
-                                    <div class="pbminfotech-testimonial-detail">Advisor</div>
+                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -953,7 +800,8 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Built tough and to last, the quality of their trailers is unmatched.
+                                            My boat rides smoother than ever.”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
@@ -962,7 +810,7 @@
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-04.webp" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -972,16 +820,16 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Friendly staff and excellent workmanship, they went above and beyond to meet my needs."</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
                                     <h3 class="pbminfotech-box-title">Ariana Green</h3>
-                                    <div class="pbminfotech-testimonial-detail">Manager</div>
+                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-05.webp" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -991,7 +839,9 @@
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“I would recommend practitioners at this center to everyone! They are great to work with and are excellent trainers. Thank you all!”</p>
+                                        <p>“Value for money, hands down.
+                                            Got a durable trailer at a great price.
+                                            Support local, support Trax”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
@@ -1000,7 +850,7 @@
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
                                     <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/testimonial-06.webp" class="img-fluid" alt="">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>

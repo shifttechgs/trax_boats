@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-md-12 col-xl-4">
                     <div class="pbmit-footer-logo">
-                        <img src="assets/images/trax_boats_logo_dark.png" alt="">
+                        <img src="assets/images/trax_boats.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-12 col-xl-8">

@@ -6,7 +6,9 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
 
 Route::get('projects', [\App\Http\Controllers\ProjectsController::class, 'projectsPages'])->name('projects.index');
 Route::get('contact', [\App\Http\Controllers\ContactController::class, 'contactPage'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'submitForm']);

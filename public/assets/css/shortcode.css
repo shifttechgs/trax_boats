@@ -2455,7 +2455,7 @@ body:not(.home) .header-style-1 .site-header-menu:not(.sticky-header) .pbmit-mai
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
 	background-color: rgba(0,0,0,0.5);
-	background-image: url(../images/bg/titlebar-bg.webp);
+	background-image: url(../images/banner-slider-img/boat_fix.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

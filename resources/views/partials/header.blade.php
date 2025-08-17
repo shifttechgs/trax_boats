@@ -8,7 +8,7 @@
                         <div class="pbmit-logo-btnarea d-flex align-items-center">
                             <div class="site-branding">
                                 <h1 class="site-title">
-                                    <a href="">
+                                    <a href="/">
                                         <img class="logo-img"   src="assets/images/trax_boats.png" alt="Trax Boats">
                                         <img class="sticky-logo-img" src="assets/images/trax_boats_dark.png" alt="Trax Boats">
                                     </a>
@@ -36,22 +36,22 @@
 													</span>
                                             <ul class="navigation clearfix">
                                                 <li class="dropdown active">
-                                                    <a href="#">Home</a>
-
+                                                    <a href="{{ url('/') }}">Home</a>
                                                 </li>
 
                                                 <li class="dropdown">
-                                                    <a href="#">Services</a>
-
+                                                    <a href="{{ url('/') }}#services">Services</a>
                                                 </li>
+
                                                 <li class="dropdown">
-                                                    <a href="#">Projects</a>
-
+                                                    <a href="{{ url('/') }}#projects">Projects</a>
                                                 </li>
 
-{{--                                                <li><a href="{{ route('contact.index') }}">Contact Us</a></li>--}}
-                                                <li><a href="#">Contact Us</a></li>
+                                                <li>
+                                                    <a href="{{ url('/') }}#contact-us">Contact Us</a>
+                                                </li>
                                             </ul>
+
                                         </div>
                                     </div>
                                 </nav>
@@ -88,6 +88,8 @@
             </div>
         </div>
     </div>
+    {{-- Show slider only on home page --}}
+    @if (Request::is('/'))
     <div class="pbmit-slider-area pbmit-slider-two">
         <div class="swiper-slider" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
             <div class="swiper-wrapper">
@@ -95,14 +97,14 @@
                 <div class="swiper-slide">
                     <div class="pbmit-bg-overlay"></div>
                     <div class="pbmit-slider-item">
-                        <div class="pbmit-slider-bg" style="background-image: url(assets/images/banner-slider-img/boat_fix.jpg);"></div>
+                        <div class="pbmit-slider-bg" style="background-image: url(assets/images/banner-slider-img/trax_boats.svg);"></div>
                         <div class="container">
                             <div class="row text-center">
                                 <div class="col-md-12">
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-delay-1">Trax Boats & Trailers</h5>
                                         <h2 class="pbmit-title transform-center transform-delay-2">Trusted</h2>
-                                        <h4 class="pbmit-title-small transform-bottom transform-delay-3">boats & trailer care experts.</h4>
+                                        <h4 class="pbmit-title-small transform-bottom transform-delay-3">Boats & Trailer Care Experts.</h4>
                                         <div class="pbmit-button d-flex justify-content-center">
                                             <div class="transform-bottom transform-delay-4 me-4">
                                                 <a class="pbmit-btn pbmit-btn-hover-white" href="{{ route('contact.index') }}">
@@ -120,7 +122,7 @@
                                                 </a>
                                             </div>
                                             <div class="transform-bottom transform-delay-5">
-                                                <a class="pbmit-btn pbmit-btn-white" href="">
+                                                <a class="pbmit-btn pbmit-btn-white" href="#services">
 															<span class="pbmit-button-content-wrapper">
 																<span class="pbmit-button-icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
@@ -146,5 +148,6 @@
             </div>
         </div>
     </div>
+    @endif
 </header>
 <!-- Header Main Area End Here -->

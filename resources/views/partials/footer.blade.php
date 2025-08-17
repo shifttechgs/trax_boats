@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 col-xl-4">
-                    <div class="pbmit-footer-logo">
-                        <img src="assets/images/trax_boats.png" alt="">
+                    <div class="pbmit-footer-logo" >
+                        <a href="{{ url('/') }}"> <img src="assets/images/trax_boats.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-12 col-xl-8">
@@ -69,12 +69,14 @@
                     <div class="widget pbmit-two-column-menu">
                         <h2 class="widget-title">Useful Link</h2>
                         <div class="textwidget">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact</a></li>
+                            <ul class="navigation clearfix">
+                                <li>  <a href="{{ url('/') }}">Home</a></li>
+
+
+                                <li>  <a href="{{ url('/') }}#services">Services</a></li>
+                                <li>  <a href="{{ url('/') }}#projects">Projects</a></li>
+
+                                <li> <a href="{{ url('/') }}#contact-us">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -103,7 +105,9 @@
                         <div class="pbmit-contact-widget-">
                             <div class="pbmit-contact-widget-line pbmit-contact-widget-phone">+263 772 254 344
                             </div>
-                            <div class="pbmit-contact-widget-line pbmit-contact-widget-email"><a href="https://karsfix-demo.pbminfotech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="573e393138172e38222533383a363e397934383a">[email&#160;protected]</a></div>
+                            <div class="pbmit-contact-widget-line pbmit-contact-widget-phone">info@traxboats.com
+                            </div>
+
                         </div>
                     </aside>
                 </div>

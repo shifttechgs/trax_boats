@@ -87,7 +87,7 @@
         <!-- About Us end -->
 
         <!-- Service Start -->
-        <section class="service-one-bg section-lg">
+        <section class="service-one-bg section-lg" id="services">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
@@ -345,7 +345,7 @@
                                 We go beyond basic repairs. Whether it's rebuilding a boat, fabricating a custom trailer, or converting a truck into a full RV, we combine expert craftsmanship with a deep understanding of what our clients truly need. Our focus is on delivering durable, tailored solutions with honesty, speed, and precision.
                             </div>
                         </div>
-                        <a class="pbmit-btn" href="about-us.html">
+                        <a class="pbmit-btn" href="{{ route('contact.index') }}">
 								<span class="pbmit-button-content-wrapper">
 									<span class="pbmit-button-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
@@ -461,7 +461,7 @@
                                 <h4 class="pbmit-subtitle"> Limited Period Offer </h4>
                                 <h2 class="pbmit-title">Schedule a Complimentary <br>Boat & Trailer Assessment Now!</h2>
                             </div>
-                            <a class="pbmit-btn pbmit-btn-hover-white" href="contact-us.html">
+                            <a class="pbmit-btn pbmit-btn-hover-white" href="#contact-us">
 									<span class="pbmit-button-content-wrapper">
 										<span class="pbmit-button-icon">
 											<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
@@ -512,7 +512,7 @@
 {{--        <div class="page-content">--}}
 
             <!-- Portfolio Grid Col 4 -->
-            <section class="section-xl pbmit-element-viewtype-masonry">
+            <section class="section-xl pbmit-element-viewtype-masonry" id="projects">
                 <div class="pbmit-heading-subheading text-center animation-style2">
                                         <h4 class="pbmit-subtitle"> Latest Works </h4>
                                         <h2 class="pbmit-title">Our most recent <span class="pbmit-global-color">projects</span></h2>
@@ -524,10 +524,12 @@
                                 <div class="pbminfotech-image-wapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/1.svg" class="img-fluid" alt="">
+                                            <a href="assets/images/portfolio/1.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                                <img src="assets/images/portfolio/1.svg" class="img-fluid" alt="Boat Rebuild">
+                                            </a>
                                         </div>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
@@ -544,20 +546,21 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/2.svg" class="img-fluid" alt="">
-                                        </div>
+
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/2.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/2.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
+                                            <a href="" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
+                                            <a href="">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -566,20 +569,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/3.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/3.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/3.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
+                                            <a href="" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
+                                            <a href="">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -588,20 +591,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/4.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/4.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/4.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
+                                            <a href="" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Boat Respraying</a>
+                                            <a href="">Boat Respraying</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -610,20 +613,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/5.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/5.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/5.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
+                                            <a href="" rel="tag">Trax Boats</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Boat Repairing</a>
+                                            <a href="">Boat Repairing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -632,20 +635,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/10.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/10.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/10.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
+                                            <a href="" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Custom Trailer </a>
+                                            <a href="">Custom Trailer </a>
                                         </h3>
                                     </div>
                                 </div>
@@ -654,20 +657,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/9.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/9.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/9.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
+                                            <a href="" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Custom Trailer</a>
+                                            <a href="">Custom Trailer</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -676,20 +679,20 @@
                         <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
                             <div class="pbminfotech-post-content">
                                 <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/portfolio/8.svg" class="img-fluid" alt="">
-                                        </div>
+                                    <div class="pbmit-featured-wrapper">
+                                        <a href="assets/images/portfolio/8.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
+                                            <img src="assets/images/portfolio/8.svg" class="img-fluid" alt="Boat Rebuild">
+                                        </a>
                                     </div>
-                                    <a class="pbmit-link" href="portfolio-single-style-01.html"></a>
+
                                 </div>
                                 <div class="pbminfotech-box-content">
                                     <div class="pbminfotech-titlebox">
                                         <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Trailers</a>
+                                            <a href="" rel="tag">Trax Trailers</a>
                                         </div>
                                         <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Custom Trailer</a>
+                                            <a href="">Custom Trailer</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -697,27 +700,27 @@
                         </article>
                     </div>
                 </div>
-                <div class="pbmit-heading-subheading text-center animation-style2">
-                    <a class="pbmit-btn" href="about-us.html">
-								<span class="pbmit-button-content-wrapper">
-									<span class="pbmit-button-icon">
-										<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-											<title>black-arrow</title>
-											<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-										</svg>
-									</span>
-									<span class="pbmit-button-text">Explore Projects</span>
-								</span>
-                    </a>
-                </div>
+{{--                <div class="pbmit-heading-subheading text-center animation-style2">--}}
+{{--                    <a class="pbmit-btn" href="about-us.html">--}}
+{{--								<span class="pbmit-button-content-wrapper">--}}
+{{--									<span class="pbmit-button-icon">--}}
+{{--										<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">--}}
+{{--											<title>black-arrow</title>--}}
+{{--											<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
+{{--											<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
+{{--											<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
+{{--										</svg>--}}
+{{--									</span>--}}
+{{--									<span class="pbmit-button-text">Explore Projects</span>--}}
+{{--								</span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </section>
             <!-- Portfolio Grid Col 4 End -->
 
 {{--        </div>--}}
         <!-- Page Content End -->
-
+<br>
         <!-- Testimonial Start -->
         <section class="section-lg testimonial-one-bg">
             <div class="container">
@@ -732,19 +735,18 @@
                         <div class="testimonial-swiper-arrow swiper-btn-custom d-inline-flex flex-row-reverse"></div>
                     </div>
                 </div>
-                <div class="swiper-slider" data-arrows-class="testimonial-swiper-arrow" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="2" data-margin="40" data-effect="slide">
+                <div class="swiper-slider" data-arrows-class="testimonial-swiper-arrow" data-autoplay="true" data-loop="false" data-dots="false" data-arrows="true" data-columns="1" data-margin="40" data-effect="slide">
                     <div class="swiper-wrapper">
                         <!-- Slide1 -->
                         <article class="pbmit-testimonial-style-2 swiper-slide">
                             <div class="pbminfotech-post-item">
                                 <div class="pbminfotech-box-desc">
                                     <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Absolutely top-notch service. My boat trailer was custom-fitted and ready in no time.
-                                            Highly recommend Trax for quality.”</p>
+                                        <p>“What an amazing job Trax boats & trailers did with my Sportster. It had huge tears in the hull underneath the boat, a cracked and shoddy inside floor, seats that had disintegrated, and a motor that needed serious attention. The transformation is nothing short of fantastic and that all done at a surprisingly low price. Thank you Trax Boats & Trailers.”</p>
                                     </blockquote>
                                 </div>
                                 <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Evangeline Lee</h3>
+                                    <h3 class="pbminfotech-box-title">Gareth Stockil</h3>
                                     <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
                                 </div>
                                 <div class="pbmit-featured-img-wrapper">
@@ -754,107 +756,107 @@
                                 </div>
                             </div>
                         </article>
-                        <!-- Slide2 -->
-                        <article class="pbmit-testimonial-style-2 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-box-desc">
-                                    <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Professional and reliable team.
-                                            They helped me upgrade my trailer with zero hassle.
-                                            I wouldn’t go anywhere else!”</p>
-                                    </blockquote>
-                                </div>
-                                <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Adeline wood</h3>
-                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
-                                </div>
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide3 -->
-                        <article class="pbmit-testimonial-style-2 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-box-desc">
-                                    <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Best experience ever, from consultation to delivery, everything was seamless.
-                                            Trax truly knows their stuff.”</p>
-                                    </blockquote>
-                                </div>
-                                <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Naomi Violet</h3>
-                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
-                                </div>
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide4 -->
-                        <article class="pbmit-testimonial-style-2 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-box-desc">
-                                    <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Built tough and to last, the quality of their trailers is unmatched.
-                                            My boat rides smoother than ever.”</p>
-                                    </blockquote>
-                                </div>
-                                <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Dylan Wang</h3>
-                                    <div class="pbminfotech-testimonial-detail">Ceo & Founder</div>
-                                </div>
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide5 -->
-                        <article class="pbmit-testimonial-style-2 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-box-desc">
-                                    <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Friendly staff and excellent workmanship, they went above and beyond to meet my needs."</p>
-                                    </blockquote>
-                                </div>
-                                <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Ariana Green</h3>
-                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
-                                </div>
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide6 -->
-                        <article class="pbmit-testimonial-style-2 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-box-desc">
-                                    <blockquote class="pbminfotech-testimonial-text">
-                                        <p>“Value for money, hands down.
-                                            Got a durable trailer at a great price.
-                                            Support local, support Trax”</p>
-                                    </blockquote>
-                                </div>
-                                <div class="pbmit-auther-content">
-                                    <h3 class="pbminfotech-box-title">Parsons William</h3>
-                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
-                                </div>
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
+{{--                        <!-- Slide2 -->--}}
+{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
+{{--                            <div class="pbminfotech-post-item">--}}
+{{--                                <div class="pbminfotech-box-desc">--}}
+{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
+{{--                                        <p>“Professional and reliable team.--}}
+{{--                                            They helped me upgrade my trailer with zero hassle.--}}
+{{--                                            I wouldn’t go anywhere else!”</p>--}}
+{{--                                    </blockquote>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-auther-content">--}}
+{{--                                    <h3 class="pbminfotech-box-title">Adeline wood</h3>--}}
+{{--                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide3 -->--}}
+{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
+{{--                            <div class="pbminfotech-post-item">--}}
+{{--                                <div class="pbminfotech-box-desc">--}}
+{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
+{{--                                        <p>“Best experience ever, from consultation to delivery, everything was seamless.--}}
+{{--                                            Trax truly knows their stuff.”</p>--}}
+{{--                                    </blockquote>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-auther-content">--}}
+{{--                                    <h3 class="pbminfotech-box-title">Naomi Violet</h3>--}}
+{{--                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide4 -->--}}
+{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
+{{--                            <div class="pbminfotech-post-item">--}}
+{{--                                <div class="pbminfotech-box-desc">--}}
+{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
+{{--                                        <p>“Built tough and to last, the quality of their trailers is unmatched.--}}
+{{--                                            My boat rides smoother than ever.”</p>--}}
+{{--                                    </blockquote>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-auther-content">--}}
+{{--                                    <h3 class="pbminfotech-box-title">Dylan Wang</h3>--}}
+{{--                                    <div class="pbminfotech-testimonial-detail">Ceo & Founder</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide5 -->--}}
+{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
+{{--                            <div class="pbminfotech-post-item">--}}
+{{--                                <div class="pbminfotech-box-desc">--}}
+{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
+{{--                                        <p>“Friendly staff and excellent workmanship, they went above and beyond to meet my needs."</p>--}}
+{{--                                    </blockquote>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-auther-content">--}}
+{{--                                    <h3 class="pbminfotech-box-title">Ariana Green</h3>--}}
+{{--                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide6 -->--}}
+{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
+{{--                            <div class="pbminfotech-post-item">--}}
+{{--                                <div class="pbminfotech-box-desc">--}}
+{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
+{{--                                        <p>“Value for money, hands down.--}}
+{{--                                            Got a durable trailer at a great price.--}}
+{{--                                            Support local, support Trax”</p>--}}
+{{--                                    </blockquote>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-auther-content">--}}
+{{--                                    <h3 class="pbminfotech-box-title">Parsons William</h3>--}}
+{{--                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
                     </div>
                 </div>
             </div>
@@ -863,51 +865,42 @@
 
 
         <!-- Contact Start -->
-        <section class="contact-one-bg">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-md-12 col-xl-6 bg-blackish">
-                        <form>
-                            <div class="pbmit-appointment-form-inner pbmit-bg-color-blackish">
-                                <div class="pbmit-heading-subheading">
-                                    <h4 class="pbmit-subtitle" style="color: white">Cost Calculator</h4>
-                                    <h2 class="pbmit-title">Get your free estimate!</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Your Name" name="your-name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Phone Number" name="tel-649" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input name="emial-address" class="form-control" placeholder="Email Address" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <select class="form-select">
-                                            <option value="Choose a Service">Choose Service</option>
-                                            <option value="Boat repairs">Boat repairs</option>
-                                            <option value="Boat re-design & re-building">Boat re-design & re-building</option>
-                                            <option value="Boat trailer repairs">Boat trailer repairs</option>
-                                            <option value="Personal trailer repairs & re-building">Personal trailer repairs & re-building</option>
-                                            <option value="Truck to RV conversions">Truck to RV conversions</option>
-                                            <option value="Bespoke trailer & fabrication.">Bespoke trailer & fabrication.</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <textarea class="form-control" placeholder="Message"></textarea>
-                                    </div>
+        <section class="contact-one-bg" id="contact-us">
+            <div class="col-md-12 col-xl-7">
+                <div class="contact-form-rightbox pbmit-bg-color-light">
+                    <div class="pbmit-heading animation-style2">
+                        <h3 class="pbmit-title">Get A Free Quote</h3>
+                    </div>
 
-
-                                    <div class="col-md-6">
-                                        <div class="input-text-group">
-                                            <p>Submit this information and we will send you the cost for the service.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <form class="contact-form" method="POST" action="{{ url('/contact') }}">
+                        @csrf
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" name="first_name" required>
                             </div>
-                            <div class="input-button">
-                                <button class="pbmit-btn pbmit-btn-white">
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Your Phone" name="phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select  name="service" class="form-control" >
+                                    <option value="Choose a Service">Choose Service</option>
+                                    <option value="Boat repairs">Boat repairs</option>
+                                    <option value="Boat re-design & re-building">Boat re-design & re-building</option>
+                                    <option value="Boat trailer repairs">Boat trailer repairs</option>
+                                    <option value="Personal trailer repairs & re-building">Personal trailer repairs & re-building</option>
+                                    <option value="Truck to RV conversions">Truck to RV conversions</option>
+                                    <option value="Bespoke trailer & fabrication.">Bespoke trailer & fabrication.</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required></textarea>
+                            </div>
+
+                        </div>
+                        <button class="pbmit-btn">
 										<span class="pbmit-button-content-wrapper">
 											<span class="pbmit-button-icon">
 												<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
@@ -917,13 +910,11 @@
 													<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
 												</svg>
 											</span>
-											<span class="pbmit-button-text">Get Cost Estimate</span>
+											<span class="pbmit-button-text" type="submit">Get A Free Quote</span>
 										</span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-12 col-xl-6"></div>
+                        </button>
+                        <div class="col-md-12 col-lg-12 message-status"></div>
+                    </form>
                 </div>
             </div>
         </section>

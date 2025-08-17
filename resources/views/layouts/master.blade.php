@@ -4,10 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Trax Boats   – Boat repairs and trailers</title>
+    <title>Trax Boats & Trailers – Expert Boat Repairs & Trailer Services</title>
     <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
+    <meta name="description" content="Trax Boats specializes in professional boat repairs and reliable trailer services. Keep your boat and trailer in top condition with our trusted experts.">
+    <meta name="keywords" content="boat repairs, trailer services, boat maintenance, trailer repairs, marine repair, boat restoration, Trax Boats, boat repairs Harare, trailer services Zimbabwe, boat maintenance Harare, trailer repairs Zimbabwe, marine repair Harare, boat restoration Zimbabwe, Trax Boats Harare">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Trax Boats Harare – Expert Boat Repairs & Trailer Services in Zimbabwe">
+    <meta property="og:description" content="Trusted experts in boat repairs and trailer services in Harare and across Zimbabwe. Keep your boat and trailer performing at their best with Trax Boats.">
+    <meta property="og:image" content="https://yourwebsite.com/images/boats-trailers.jpg"> <!-- replace with your image URL -->
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trax Boats Harare – Expert Boat Repairs & Trailer Services in Zimbabwe">
+    <meta name="twitter:description" content="Professional boat repairs and trailer services in Harare, Zimbabwe. Smooth sailing and safe towing with Trax Boats.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/boats-trailers.jpg"> <!-- replace with your image URL -->
+
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">
     <!-- CSS
@@ -36,7 +52,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <style>
+    /* Resize Lightbox popup */
+    .lb-image {
+    max-width: 800px !important;  /* adjust as needed */
+    max-height: 600px !important; /* keep it smaller */
+    width: auto !important;
+    height: auto !important;
+    margin: auto;
+    border-radius: 8px; /* optional: rounded corners */
+    }
+    .lb-outerContainer {
+    max-width: 820px !important;  /* container slightly bigger */
+    max-height: 620px !important;
+    }
+    </style>
 
+    <!-- Toastr CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
 
 
 </head>
@@ -114,8 +149,41 @@
 <script src='assets/js/gsap-animation.js'></script>
 <!-- Scripts JS -->
 <script src="assets/js/scripts.js"></script>
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 
+{{--for toasters--}}
+<!-- jQuery (required for Toastr) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<!-- Toastr Flash Message -->
+<script>
+    @if(session('success'))
+    toastr.success("{{ session('success') }}");
+    @elseif(session('error'))
+    toastr.error("{{ session('error') }}");
+    @elseif(session('warning'))
+    toastr.warning("{{ session('warning') }}");
+    @elseif(session('info'))
+    toastr.info("{{ session('info') }}");
+    @endif
+</script>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            if (window.location.pathname === "/") {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+
+</script>
 </body>
 
 </html>

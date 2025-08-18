@@ -756,27 +756,25 @@
                                 </div>
                             </div>
                         </article>
-{{--                        <!-- Slide2 -->--}}
-{{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
-{{--                            <div class="pbminfotech-post-item">--}}
-{{--                                <div class="pbminfotech-box-desc">--}}
-{{--                                    <blockquote class="pbminfotech-testimonial-text">--}}
-{{--                                        <p>“Professional and reliable team.--}}
-{{--                                            They helped me upgrade my trailer with zero hassle.--}}
-{{--                                            I wouldn’t go anywhere else!”</p>--}}
-{{--                                    </blockquote>--}}
-{{--                                </div>--}}
-{{--                                <div class="pbmit-auther-content">--}}
-{{--                                    <h3 class="pbminfotech-box-title">Adeline wood</h3>--}}
-{{--                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>--}}
-{{--                                </div>--}}
-{{--                                <div class="pbmit-featured-img-wrapper">--}}
-{{--                                    <div class="pbmit-featured-wrapper">--}}
-{{--                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </article>--}}
+                        <!-- Slide2 -->
+                        <article class="pbmit-testimonial-style-2 swiper-slide">
+                            <div class="pbminfotech-post-item">
+                                <div class="pbminfotech-box-desc">
+                                    <blockquote class="pbminfotech-testimonial-text">
+                                        <p>“I can not say enough about the amazing job that Trax Boats & Trailers did on my Raker X65. A fantastic full re-carpeting job, electric anchors for spot fishing, quick draw rod holders all round the boat, a beautiful fleece lined boat and engine cover, a full service and new propellers on our Evinrude motor and to top it all, an amazingly refreshing and cooling 360 degree misting system for those incredibly hot days on the Zambezi. What's more is that everything was done with a highly professional finish, and it did not cost me an arm and a leg. Thanks, Trax Boats & Trailers. Any more boat needs, and I'll be coming straight to you”</p>
+                                    </blockquote>
+                                </div>
+                                <div class="pbmit-auther-content">
+                                    <h3 class="pbminfotech-box-title">Berin</h3>
+                                    <div class="pbminfotech-testimonial-detail">Satisfied Client</div>
+                                </div>
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="assets/images/homepage-1/testimonial/satisfaction.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
 {{--                        <!-- Slide3 -->--}}
 {{--                        <article class="pbmit-testimonial-style-2 swiper-slide">--}}
 {{--                            <div class="pbminfotech-post-item">--}}

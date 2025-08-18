@@ -105,7 +105,7 @@
                         <div class="pbmit-contact-widget-">
                             <div class="pbmit-contact-widget-line pbmit-contact-widget-phone">+263 772 254 344
                             </div>
-                            <div class="pbmit-contact-widget-line pbmit-contact-widget-phone">info@traxboats.com
+                            <div class="pbmit-contact-widget-line pbmit-contact-widget-phone">trax@zol.co.zw
                             </div>
 
                         </div>

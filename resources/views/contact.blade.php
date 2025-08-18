@@ -47,7 +47,7 @@
                                 <div class="pbmit-ihbox-wrap">
                                     <div class="pbmit-ihbox-contents">
                                         <h2 class="pbmit-element-title">Mail Us 24/7</h2>
-                                        <div class="pbmit-heading-desc"><a href="" class="__cf_email__" data-cfemail="740416191d1a121b0011171c341319151d185a171b19">info@traxboats.com</a> </div>
+                                        <div class="pbmit-heading-desc"><a href="" class="__cf_email__" data-cfemail="740416191d1a121b0011171c341319151d185a171b19">trax@zol.co.zw</a> </div>
                                     </div>
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
@@ -76,7 +76,7 @@
                                 <div class="pbmit-ihbox-wrap">
                                     <div class="pbmit-ihbox-contents">
                                         <h2 class="pbmit-element-title">Our Location</h2>
-                                        <div class="pbmit-heading-desc">85 Preston, Inglewood, Maine 98380, Hoofddorp Noord- 2132</div>
+                                        <div class="pbmit-heading-desc">12 George Drive, Msasa, Harare,<br>Zimbabwe</div>
                                     </div>
                                     <div class="pbmit-ihbox-icon">
                                         <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
@@ -246,7 +246,8 @@
         <!-- Iframe -->
         <section class="iframe-section section-lgb pbmit-extend-animation">
             <div class="container-fluid p-0">
-                <iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.958051859929!2d31.104363975025958!3d-17.84060127666063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931bb693ca93b51%3A0x2138aacecca698b!2s12%20George%20Dr%2C%20Harare%2C%20Zimbabwe!5e0!3m2!1sen!2sza!4v1755543455314!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <!-- Iframe End-->

@@ -13,8 +13,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Trax Boats Harare – Expert Boat Repairs & Trailer Services in Zimbabwe">
     <meta property="og:description" content="Trusted experts in boat repairs and trailer services in Harare and across Zimbabwe. Keep your boat and trailer performing at their best with Trax Boats.">
-    <meta property="og:image" content="https://yourwebsite.com/images/boats-trailers.jpg"> <!-- replace with your image URL -->
-    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:image" content="http://traxboatsandtrailers.com/images/boats-trailers.jpg"> <!-- replace with your image URL -->
+    <meta property="og:url" content="http://traxboatsandtrailers.com/">
     <meta property="og:type" content="website">
 
     <!-- Twitter -->
@@ -113,10 +113,14 @@
 <!-- JS
     ============================================ -->
 <!-- jQuery JS -->
-
+<!-- jQuery JS -->
+{{--<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>--}}
+<!-- Popper JS -->
 <script src="assets/js/jquery.min.js"></script>
 <!-- Popper JS -->
 <script src="assets/js/popper.min.js"></script>
+<!-- jquery Waypoints JS -->
+<script src="assets/js/jquery.waypoints.min.js"></script>
 <!-- Bootstrap JS -->
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- jquery Waypoints JS -->
@@ -133,6 +137,8 @@
 <script src="assets/js/circle-progress.js"></script>
 <!-- countdown JS -->
 <script src="assets/js/jquery.countdown.min.js"></script>
+<!-- masonry JS -->
+<script src="assets/js/masonry.min.js"></script>
 <!-- AOS -->
 <script src="assets/js/aos.js"></script>
 <!-- GSAP -->
@@ -143,6 +149,8 @@
 <script src='assets/js/SplitText.js'></script>
 <!-- Magnetic -->
 <script src='assets/js/magnetic.js'></script>
+<!-- Theia Sticky Sidebar JS -->
+<script src="assets/js/isotope.pkgd.min.js"></script>
 <!-- Theia Sticky Sidebar JS -->
 <script src='assets/js/theia-sticky-sidebar.js'></script>
 <!-- GSAP Animation -->
@@ -183,6 +191,20 @@
         });
     });
 
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9381f78869b873a5',t:'MTc0NTk2MjkyMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/b/scripts/jsd/a51d7b3d53cb/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9381f78869b873a5","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"125856bf84ab44059737e93b01aa0fef","b":1}' crossorigin="anonymous"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".gallery-trigger").forEach(function(article){
+            article.addEventListener("click", function(){
+                const first = article.querySelector(".first-lightbox");
+                if (first) first.click();
+            });
+        });
+    });
 </script>
 </body>
 

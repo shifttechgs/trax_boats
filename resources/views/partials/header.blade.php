@@ -39,15 +39,19 @@
                                                     <a href="{{ url('/') }}">Home</a>
                                                 </li>
 
-                                                <li class="dropdown">
+                                                <li class="dropdown active">
                                                     <a href="{{ url('/') }}#services">Services</a>
                                                 </li>
 
-                                                <li class="dropdown">
+                                                <li class="dropdown active">
                                                     <a href="{{ url('/') }}#projects">Projects</a>
                                                 </li>
 
-                                                <li>
+{{--                                                <li class="dropdown">--}}
+{{--                                                    <a href="{{ url('/boat_repairs') }}">Repairs</a>--}}
+{{--                                                </li>--}}
+
+                                                <li class="dropdown active">
                                                     <a href="{{ url('/') }}#contact-us">Contact Us</a>
                                                 </li>
                                             </ul>

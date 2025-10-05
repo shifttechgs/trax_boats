@@ -86,205 +86,230 @@
         </section>
         <!-- About Us end -->
 
-        <!-- Service Start -->
-        <section class="service-one-bg section-lg" id="services">
+
+
+        <!-- Services Start -->
+        <section class="section-xl" id="services">
+
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="pbmit-heading-subheading animation-style2">
-                            <h4 class="pbmit-subtitle">Our Services</h4>
-                            <h2 class="pbmit-title">We offer a <span class="pbmit-global-color">wide range</span> <br> of Boats & Trailers services.</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-end">
-                        <div class="service-swiper-arrow swiper-btn-custom d-inline-flex flex-row-reverse"></div>
+                <div class="col-md-6">
+                    <div class="pbmit-heading-subheading animation-style2">
+                        <h4 class="pbmit-subtitle">Our Services</h4>
+                        <h2 class="pbmit-title">We offer a <span class="pbmit-global-color">wide range</span> <br> of Boats & Trailers services.</h2>
                     </div>
                 </div>
-                <div class="swiper-slider" data-arrows-class="service-swiper-arrow" data-autoplay="false" data-loop="true" data-dots="false" data-arrows="true" data-columns="3" data-margin="40" data-effect="slide">
-                    <div class="swiper-wrapper">
-                        <!-- Slide1 -->
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbmit-box-content-wrap">
-                                    <div class="pbmit-service-image-wrapper">
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/boat_repair.svg" class="img-fluid" alt="">
-                                            </div>
+                <div class="pbmit-element-posts-wrapper row">
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/boat_repair.svg" class="img-fluid" alt="">
                                         </div>
-                                        <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="" title="Maintenance">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-angle-right"></i>
-													</span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href=""></a>
                                     </div>
-                                    <div class="pbmit-content-box">
-                                        <div class="pbminfotech-box-number">01</div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Accessories</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="">Boat Repairs & Rebuilds</a>
-                                        </h3>
-                                        <div class="pbmit-service-description">
-                                            <p>From minor fixes to complete overhauls, we restore boats to peak performance and condition.</p>
-                                        </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/boat_repairs') }}" title="Boat Repairs & Modifications.">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/boat_repairs') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">01</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/boat_repairs') }}" rel="tag">Boat Repairs & Modifications.</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/boat_repairs') }}">Boat Repairs & Modifications. </a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>From minor fixes to complete overhauls, we restore boats to peak performance and condition.</p>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                        </article>
-                        <!-- Slide2 -->
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbmit-box-content-wrap">
-                                    <div class="pbmit-service-image-wrapper">
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/trailer.svg" class="img-fluid" alt="">
-                                            </div>
+                        </div>
+                    </article>
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/trailer.svg" class="img-fluid" alt="">
                                         </div>
-                                        <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="" title="Wheels Alignment">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-angle-right"></i>
-													</span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href=""></a>
                                     </div>
-                                    <div class="pbmit-content-box">
-                                        <div class="pbminfotech-box-number">02</div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Maintenance</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="">Trailer Repairs (Boat & Personal)</a>
-                                        </h3>
-                                        <div class="pbmit-service-description">
-                                            <p>We repair and rebuild trailers for safety, strength, and smooth towing, built for the long haul.</p>
-                                        </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/trailer_repairs') }}" title="Trailer Repairs & Modifications.">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/trailer_repairs') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">02</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/trailer_repairs') }}" rel="tag">Trailer Repairs & Modifications.</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/trailer_repairs') }}">Trailer Repairs & Modifications.
+                                        </a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>From minor fixes to complete overhauls, we restore boats to peak performance and condition.</p>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                        </article>
-                        <!-- Slide3 -->
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbmit-box-content-wrap">
-                                    <div class="pbmit-service-image-wrapper">
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/fabrication.svg" class="img-fluid" alt="">
-                                            </div>
+                        </div>
+                    </article>
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/fabrication.svg" class="img-fluid" alt="">
                                         </div>
-                                        <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="" title="Trax Boats Service">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-angle-right"></i>
-													</span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href=""></a>
                                     </div>
-                                    <div class="pbmit-content-box">
-                                        <div class="pbminfotech-box-number">03</div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Repair</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="">Custom Trailer Fabrication</a>
-                                        </h3>
-                                        <div class="pbmit-service-description">
-                                            <p>Tailor-made trailers, designed and fabricated to meet your specific load and usage needs.</p>
-                                        </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/custom_trailers') }}" title="Custom Trailer Manufacturing">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/custom_trailers') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">03</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/custom_trailers') }}" rel="tag">Custom Trailer Manufacturing.</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/custom_trailers') }}">Custom Trailer Manufacturing.</a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>Tailor-made trailers, designed and fabricated to meet your specific load and usage needs.</p>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                        </article>
-                        <!-- Slide4 -->
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbmit-box-content-wrap">
-                                    <div class="pbmit-service-image-wrapper">
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/conversions.svg" class="img-fluid" alt="">
-                                            </div>
+                        </div>
+                    </article>
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/boat_wrap.svg" class="img-fluid" alt="">
                                         </div>
-                                        <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="" title="Interior Cleaning">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-angle-right"></i>
-													</span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href=""></a>
                                     </div>
-                                    <div class="pbmit-content-box">
-                                        <div class="pbminfotech-box-number">04</div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Filters</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="">Truck to RV Conversions</a>
-                                        </h3>
-                                        <div class="pbmit-service-description">
-                                            <p>Transform your truck into a fully functional, road-ready RV with comfort and precision.</p>
-                                        </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/boat_wraps') }}" title="Boat Wraps & Signage">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/boat_wraps') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">04</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/boat_wraps') }}" rel="tag">Boat Wraps & Signage</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/boat_wraps') }}">Boat Wraps & Signage.
+                                        </a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>Custom boat wraps and professional signage that make your brand stand out on the water.</p>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                        </article>
-                        <!-- Slide5 -->
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbmit-box-content-wrap">
-                                    <div class="pbmit-service-image-wrapper">
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="assets/images/banner-slider-img/bespoke.svg" class="img-fluid" alt="">
-                                            </div>
+                        </div>
+                    </article>
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/recarpeting.svg" class="img-fluid" alt="">
                                         </div>
-                                        <div class="pbmit-service-btn-wrapper">
-                                            <a class="pbmit-service-btn" href="" title="Break Service">
-													<span class="pbmit-button-icon">
-														<i class="pbmit-base-icon-angle-right"></i>
-													</span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href=""></a>
                                     </div>
-                                    <div class="pbmit-content-box">
-                                        <div class="pbminfotech-box-number">05</div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Repair</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="">Bespoke trailer & fabrication</a>
-                                        </h3>
-                                        <div class="pbmit-service-description">
-                                            <p>Unique trailer builds and custom fabrication solutions, crafted to your exact specifications.</p>
-                                        </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/boat_recarpeting') }}" title="Boat Carpeting & EVA Foam Decking.">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/boat_recarpeting') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">05</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/boat_recarpeting') }}" rel="tag">Boat Carpeting & EVA Foam Decking.</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/boat_recarpeting') }}">Boat Carpeting & EVA Foam Decking.</a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>Premium boat carpeting and EVA foam decking for comfort, style, and lasting protection.</p>
+                                    </div>
 
-                                    </div>
                                 </div>
                             </div>
-                        </article>
+                        </div>
+                    </article>
+                    <article class="pbmit-service-style-1 col-md-4">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-box-content-wrap">
+                                <div class="pbmit-service-image-wrapper">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="assets/images/banner-slider-img/conversions.svg" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="pbmit-service-btn-wrapper">
+                                        <a class="pbmit-service-btn" href="{{ url('/conversions') }}" title="Truck To RV Conversions.">
+												<span class="pbmit-button-icon">
+													<i class="pbmit-base-icon-angle-right"></i>
+												</span>
+                                        </a>
+                                    </div>
+                                    <a class="pbmit-link" href="{{ url('/conversions') }}"></a>
+                                </div>
+                                <div class="pbmit-content-box">
+                                    <div class="pbminfotech-box-number">06</div>
+                                    <div class="pbmit-serv-cat">
+                                        <a href="{{ url('/conversions') }}" rel="tag">Truck To RV Conversions.</a>
+                                    </div>
+                                    <h3 class="pbmit-service-title">
+                                        <a href="{{ url('/conversions') }}">Truck To RV Conversions.</a>
+                                    </h3>
+                                    <div class="pbmit-service-description">
+                                        <p>Expert truck-to-RV conversions for a fully customized and road-ready mobile home.</p>
+                                    </div>
 
-                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </section>
-        <!-- Service End -->
-
-
+        <!-- Services end -->
 
         <!-- Marquee Start -->
         <section>
@@ -508,215 +533,248 @@
         <!-- Appointment End -->
 
 
-        <!-- Page Content -->
-{{--        <div class="page-content">--}}
 
-            <!-- Portfolio Grid Col 4 -->
-            <section class="section-xl pbmit-element-viewtype-masonry" id="projects">
-                <div class="pbmit-heading-subheading text-center animation-style2">
-                                        <h4 class="pbmit-subtitle"> Latest Works </h4>
-                                        <h2 class="pbmit-title">Our most recent <span class="pbmit-global-color">projects</span></h2>
-                                    </div>
-                <div class="container-fluid px-4">
-                    <div class="row pbmit-element-posts-wrapper">
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <a href="assets/images/portfolio/1.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                                <img src="assets/images/portfolio/1.svg" class="img-fluid" alt="Boat Rebuild">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="portfolio-grid-col-3.html" rel="tag">Trax Boats</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="portfolio-single-style-01.html">Boat Rebuild</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/2.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/2.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Boats</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Boat Repairing</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/3.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/3.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Boats</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Boat Repairing</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/4.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/4.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Boats</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Boat Respraying</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/5.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/5.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Boats</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Boat Repairing</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/10.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/10.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Trailers</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Custom Trailer </a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/9.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/9.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Trailers</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Custom Trailer</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="pbmit-portfolio-style-1 col-md-6 col-lg-3">
-                            <div class="pbminfotech-post-content">
-                                <div class="pbminfotech-image-wapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <a href="assets/images/portfolio/8.svg" data-lightbox="portfolio" data-title="Boat Rebuild">
-                                            <img src="assets/images/portfolio/8.svg" class="img-fluid" alt="Boat Rebuild">
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbminfotech-titlebox">
-                                        <div class="pbmit-port-cat">
-                                            <a href="" rel="tag">Trax Trailers</a>
-                                        </div>
-                                        <h3 class="pbmit-portfolio-title">
-                                            <a href="">Custom Trailer</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+        <!-- Portfolio Sortable Col 4 Start -->
+        <section class="section-xl pbmit-sortable-yes pbmit-column-four" id="projects">
+            <div class="pbmit-heading-subheading text-center animation-style2">
+                <h4 class="pbmit-subtitle"> Latest Works </h4>
+                <h2 class="pbmit-title">Our most recent <span class="pbmit-global-color">projects</span></h2>
+            </div>
+            <div class="container-fluid px-4">
+                <div class="pbmit-sortable-list">
+                    <ul class="pbmit-sortable-list-ul">
+                        <li><a href="#" class="pbmit-sortable-link pbmit-selected" data-sortby="*">All</a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="boat_repairs">Boat Repairs </a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="trailer_repairs">Trailer Repairs </a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="custome_trailer">Custom Trailer</a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="engine">Boat Wraps & Signage</a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="carpeting">Boat Carpeting & EVA Foam Decking</a></li>
+                        <li><a href="#" class="pbmit-sortable-link" data-sortby="rv_conversions">Truck To RV Conversions</a></li>
+                    </ul>
                 </div>
-{{--                <div class="pbmit-heading-subheading text-center animation-style2">--}}
-{{--                    <a class="pbmit-btn" href="about-us.html">--}}
-{{--								<span class="pbmit-button-content-wrapper">--}}
-{{--									<span class="pbmit-button-icon">--}}
-{{--										<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">--}}
-{{--											<title>black-arrow</title>--}}
-{{--											<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
-{{--											<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
-{{--											<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>--}}
-{{--										</svg>--}}
-{{--									</span>--}}
-{{--									<span class="pbmit-button-text">Explore Projects</span>--}}
-{{--								</span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-            </section>
-            <!-- Portfolio Grid Col 4 End -->
+                <div class="row g-0 pbmit-element-posts-wrapper">
+                    <article class="pbmit-portfolio-style-1 engine col-md-6 col-lg-3">
+{{--                        <div class="pbminfotech-post-content">--}}
+{{--                            <div class="pbminfotech-image-wapper">--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <a href="assets/images/portfolio/1.svg" data-lightbox="portfolio" data-title="Boat Rebuild">--}}
+{{--                                            <img src="assets/images/portfolio/1.svg" class="img-fluid" alt="Boat Rebuild">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                            </div>--}}
+{{--                            <div class="pbminfotech-box-content">--}}
+{{--                                <div class="pbminfotech-titlebox">--}}
+{{--                                    <div class="pbmit-port-cat">--}}
+{{--                                        <a href="" rel="tag">Engine</a>--}}
+{{--                                    </div>--}}
+{{--                                    <h3 class="pbmit-portfolio-title">--}}
+{{--                                        <a href="">Engine rv_conversions</a>--}}
+{{--                                    </h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+                    </article>
+                    <article class="pbmit-portfolio-style-1 custome_trailer col-md-6 col-lg-3 gallery-trigger" >
+                        <div class="pbminfotech-post-content">
+                            <div class="pbminfotech-image-wapper">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+
+                                        <!-- Visible thumbnail (optional) -->
+                                        <img src="assets/images/trailer_manufacturing/6.svg" class="img-fluid" alt="Trailer">
+
+                                        <!-- Hidden lightbox links -->
+                                        <a href="assets/images/trax_projects/trailer/1.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;" class="first-lightbox"></a>
+                                        <a href="assets/images/trax_projects/trailer/1a.jpeg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/2.jpeg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/3.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/4.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/5.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/6.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/7.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/8.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/9.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/10.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/trailer/11.jpg" data-lightbox="trailer_manufacturing" data-title="Trailer" style="display:none;"></a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pbminfotech-box-content">
+                                <div class="pbminfotech-titlebox">
+                                    <div class="pbmit-port-cat">Custom Trailer Manufacturing</div>
+                                    <h3 class="pbmit-portfolio-title">Trailer Manufacturing</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="pbmit-portfolio-style-1 trailer_repairs col-md-6 col-lg-3">
+{{--                        <div class="pbminfotech-post-content">--}}
+{{--                            <div class="pbminfotech-image-wapper">--}}
+{{--                                <div class="pbmit-featured-img-wrapper">--}}
+{{--                                    <div class="pbmit-featured-wrapper">--}}
+{{--                                        <a href="assets/images/portfolio/5.svg" data-lightbox="portfolio" data-title="Boat Rebuild">--}}
+{{--                                            <img src="assets/images/portfolio/5.svg" class="img-fluid" alt="Boat Rebuild">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                            </div>--}}
+{{--                            <div class="pbminfotech-box-content">--}}
+{{--                                <div class="pbminfotech-titlebox">--}}
+{{--                                    <div class="pbmit-port-cat">--}}
+{{--                                        <a href="" rel="tag">Break Repair</a>--}}
+{{--                                    </div>--}}
+{{--                                    <h3 class="pbmit-portfolio-title">--}}
+{{--                                        <a href="">Coming Soon</a>--}}
+{{--                                    </h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+                    </article>
+
+                    <article class="pbmit-portfolio-style-1 boat_repairs col-md-6 col-lg-3 gallery-trigger" >
+                        <div class="pbminfotech-post-content">
+                            <div class="pbminfotech-image-wapper">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+
+                                        <!-- Visible thumbnail (optional) -->
+                                        <img src="assets/images/cobra_kat/cobra_cat.svg" class="img-fluid" alt="Trailer">
+
+                                        <!-- Hidden images (still in the same group) -->
+                                        <a href="assets/images/trax_projects/cobra/1.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;" class="first-lightbox"></a>
+                                        <a href="assets/images/trax_projects/cobra/2.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/3.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/4.jpeg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/5.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/6.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/7.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/8.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/9.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/10.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/11.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/12.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/13.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/14.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/15.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/16.jpeg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/17.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/18.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/19.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/20.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/cobra/1a.jpg" data-lightbox="cobra" data-title="cobra" style="display:none;"></a>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbminfotech-titlebox">
+                                    <div class="pbmit-port-cat">
+                                        Boat Repairs & Modifications.
+                                    </div>
+                                    <h3 class="pbmit-portfolio-title">
+                                       COBRA CAT Refurbishment
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="pbmit-portfolio-style-1 boat_repairs col-md-6 col-lg-3 gallery-trigger" >
+                        <div class="pbminfotech-post-content">
+                            <div class="pbminfotech-image-wapper">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+
+                                            <img src="assets/images/bumi_refurbish/bumi_4.svg" class="img-fluid" alt="bumi">
+
+
+                                        <!-- Hidden images (still in the same group) -->
+                                        <a href="assets/images/trax_projects/bumi/1.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;" class="first-lightbox"></a>
+                                        <a href="assets/images/trax_projects/bumi/2.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/3.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/4.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/5.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/6.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/7.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/bumi/8.jpg" data-lightbox="bumi" data-title="bumi" style="display:none;"></a>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbminfotech-titlebox">
+                                    <div class="pbmit-port-cat">
+                                       Boat Repairs & Modifications.
+                                    </div>
+                                    <h3 class="pbmit-portfolio-title">
+                                       Bumi Refurbishment
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="pbmit-portfolio-style-1 boat_repairs col-md-6 col-lg-3 gallery-trigger" >
+                        <div class="pbminfotech-post-content">
+                            <div class="pbminfotech-image-wapper">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+
+                                            <img src="assets/images/sportster/sports_5.svg" class="img-fluid" alt="sportster">
+
+                                        <!-- Hidden images (still in the same group) -->
+                                        <a href="assets/images/trax_projects/sportster/1.jpg" data-lightbox="sportster" data-title="" style="display:none;" class="first-lightbox"></a>
+                                        <a href="assets/images/trax_projects/sportster/2.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/3.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/4.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/5.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/6.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+
+                                        <a href="assets/images/trax_projects/sportster/8.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/9.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/10.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/11.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+                                        <a href="assets/images/trax_projects/sportster/12.jpg" data-lightbox="sportster" data-title="" style="display:none;"></a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbminfotech-titlebox">
+                                    <div class="pbmit-port-cat">
+                                       Boat Repairs & Modifications.
+                                    </div>
+                                    <h3 class="pbmit-portfolio-title">
+                                       Sportster Refurbishment
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="pbmit-portfolio-style-1 rv_conversions col-md-6 col-lg-3">
+
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Sortable Col 4 End -->
 
 {{--        </div>--}}
         <!-- Page Content End -->
@@ -922,118 +980,175 @@
     </div>
     <!-- page content End -->
 
-    <!-- Client Start -->
+{{--    <!-- Client Start -->--}}
+{{--    <section>--}}
+{{--        <div class="container">--}}
+{{--            <div class="border-top section-md">--}}
+{{--                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="6" data-margin="30" data-effect="slide">--}}
+{{--                    <div class="swiper-wrapper">--}}
+{{--                        <!-- Slide1 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 01</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-01.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-01.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide2 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 02</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-02.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-02.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide3 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 03</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-03.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-03.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide4 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 04</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-04.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-04.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide5 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 05</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-05.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-05.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                        <!-- Slide6 -->--}}
+{{--                        <article class="pbmit-client-style-1 swiper-slide">--}}
+{{--                            <div class="pbmit-border-wrapper">--}}
+{{--                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">--}}
+{{--                                    <h4 class="pbmit-hide">Client 06</h4>--}}
+{{--                                    <div class="pbmit-client-hover-img">--}}
+{{--                                        <img src="assets/images/client/client-global-06.webp" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="pbmit-featured-img-wrapper">--}}
+{{--                                        <div class="pbmit-featured-wrapper">--}}
+{{--                                            <img src="assets/images/client/client-black-06.webp" class="img-fluid" alt="">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </article>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+{{--    <!-- Client End -->--}}
+    <!-- Marquee Start -->
     <section>
-        <div class="container">
-            <div class="border-top section-md">
-                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="6" data-margin="30" data-effect="slide">
-                    <div class="swiper-wrapper">
-                        <!-- Slide1 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 01</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-01.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-01.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide2 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 02</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-02.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-02.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide3 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 03</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-03.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-03.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide4 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 04</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-04.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-04.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide5 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 05</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-05.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-05.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- Slide6 -->
-                        <article class="pbmit-client-style-1 swiper-slide">
-                            <div class="pbmit-border-wrapper">
-                                <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
-                                    <h4 class="pbmit-hide">Client 06</h4>
-                                    <div class="pbmit-client-hover-img">
-                                        <img src="assets/images/client/client-global-06.webp" alt="">
-                                    </div>
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="assets/images/client/client-black-06.webp" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+        <div class="container-fluid p-0">
+            <div class="swiper-slider marquee">
+                <div class="swiper-wrapper">
+                    <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="  Boat repairs">
+                                Boat repairs
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Trailer repairs">
+                                Trailer repairs
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text=" Boat Re-design & Re-building">
+                                Boat Re-design & Re-building
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text=" Bespoke trailer fabrication.">
+                                Bespoke trailer fabrication.
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text=" Truck to RV conversions.">
+                                Truck to RV conversions.
+                            </h2>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </div>
     </section>
-    <!-- Client End -->
+    <!-- Marquee End -->
 
 
 </div>
 <!-- page wrapper End -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".gallery-trigger").forEach(function(article){
+                article.addEventListener("click", function(){
+                    const first = article.querySelector(".first-lightbox");
+                    if (first) first.click();
+                });
+            });
+        });
+    </script>
 
 
 @endsection

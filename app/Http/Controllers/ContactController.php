@@ -16,7 +16,6 @@ class ContactController
     }
     public function submitForm(Request $request)
     {
-     //  dd($request);
         // Validate the form data
         $validator = Validator::make($request->all(), [
             'first_name' => 'required|string|max:255',
@@ -34,9 +33,9 @@ class ContactController
 
         // Extract validated data
         $data = $validator->validated();
-//dd($data);
+
         // Send the contact form data via email
-        $contactEmail = env('CONTACT_EMAIL');
+        $contactEmail = config('mail.contact_to');
 
         try {
             Mail::to($contactEmail)->send(new ContactFormMail($data));

@@ -1,0 +1,25 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+# NOTE: /vendor is intentionally NOT ignored. This project deploys by
+# uploading/pulling the repo directly, and podhosting has no Composer step,
+# so vendor/ must stay tracked. Remember to commit vendor/ after any
+# composer require/update, or production will run against stale packages.
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed

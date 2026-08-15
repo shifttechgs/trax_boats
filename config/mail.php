@@ -115,4 +115,17 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Contact Form Recipient
+    |--------------------------------------------------------------------------
+    |
+    | The address that contact form submissions are delivered to. This must be
+    | resolved here rather than via env() in the controller, since env() only
+    | reads the .env file until "php artisan config:cache" is run.
+    |
+    */
+
+    'contact_to' => env('CONTACT_EMAIL', env('MAIL_FROM_ADDRESS', 'hello@example.com')),
+
 ];
